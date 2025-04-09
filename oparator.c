@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdbool.h>
 int main()
 {
     int x;
@@ -15,9 +16,13 @@ int main()
     {
         printf("value of y = %d", y);
     }
-  
 
-    
+    int num = 10;
+    bool c = false;
+
+    int sum = num + c;
+    // printf(" sum = %d", sum);
 
     return 0;
 }
+
