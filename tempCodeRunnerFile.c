@@ -1,7 +1,9 @@
-    // do
-    // {
-    //     /* code */
-    //     a++; 
-    //     printf("do =>%d\n", a);
-        
-    // } while (a>b);
+ int n;
+
+    scanf("%d", &n);
+
+    for (int i = 0; i <= n; i++)
+    {
+        /* code */
+        printf("I Love Practice");
+    }
