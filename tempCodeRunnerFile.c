@@ -1,9 +1,5 @@
- int n;
-
-    scanf("%d", &n);
-
-    for (int i = 0; i <= n; i++)
-    {
-        /* code */
-        printf("I Love Practice");
-    }
+if (afterBuyingPanjabiAmount >= shoesPrice)
+        {
+            /* code */
+            printf("Alisa will buy new shoes");
+        }
