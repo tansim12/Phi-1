@@ -50,28 +50,51 @@
 //     return 0;
 // }
 
+// #include <stdio.h>
+
+// int main()
+// {
+//     int n;
+
+//     scanf("%d", &n);
+//     while (n >= 1000)
+//     {
+//         /* code */
+//         n = n / 1000;
+//         if (n % 2 == 0)
+//         {
+//             /* code */
+//             printf("EVEN");
+//         }
+//         else
+//         {
+//             /* code */
+//             printf("ODD");
+//         }
+//     }
+
+//     return 0;
+// }
+
 #include <stdio.h>
 
 int main()
 {
-    int n;
+  char X;
 
-    scanf("%d", &n);
-    while (n >= 1000)
-    {
-        /* code */
-        n = n / 1000;
-        if (n % 2 == 0)
-        {
-            /* code */
-            printf("EVEN");
-        }
-        else
-        {
-            /* code */
-            printf("ODD");
-        }
-    }
+  scanf("%c", &X);
+  scanf("%d", &X);
+  int c = X;
+  if (c >= 65 && c <= 90)
+  {
+    c = c + 32;
+    printf("%c", c);
+  }
+  else
+  {
+    c = c - 32;
+    printf("%c", c);
+  }
 
-    return 0;
+  return 0;
 }
