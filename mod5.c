@@ -129,25 +129,46 @@
 // }
 
 // ! max and min number
+// #include <stdio.h>
+
+// int main()
+// {
+//   int a, b, c;
+//   scanf("%d %d %d", &a, &b, &c);
+//   int min = a;
+//   int max = a;
+//   if (b >= max)
+//     max = b;
+//   if (c >= max)
+//     max = c;
+
+//   if (b <= min)
+//     min = b;
+//   if (c <= min)
+//     min = c;
+
+//   printf("%d %d\n", min, max);
+
+//   return 0;
+// }
+
 #include <stdio.h>
 
 int main()
 {
-  int a, b, c;
-  scanf("%d %d %d", &a, &b, &c);
-  int min = a;
-  int max = a;
-  if (b >= max)
-    max = b;
-  if (c >= max)
-    max = c;
-
-  if (b <= min)
-    min = b;
-  if (c <= min)
-    min = c;
-
-  printf("%d %d\n", min, max);
-
-  return 0;
+    int n;
+    // scanf("%d",&n);
+    while (scanf("%d",&n))
+    {
+        if (n == 1999)
+        {
+            printf("Correct\n");
+            break;
+        }else {
+            printf("Wrong\n");
+        }
+        
+    }
+    
+    return 0;
 }
