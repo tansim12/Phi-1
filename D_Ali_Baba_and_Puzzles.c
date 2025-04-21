@@ -2,9 +2,9 @@
 
 int main()
 {
-    int a, b, c;
+    long long int a, b, c;
     long long int d;
-    scanf("%d %d %d %lld", &a, &b, &c, &d);
+    scanf("%lld %lld %lld %lld", &a, &b, &c, &d);
     long long int c1 = a + b - c;
     long long int c2 = a - b + c;
     long long int c3 = a + b * c;
