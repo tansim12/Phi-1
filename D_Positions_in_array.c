@@ -12,14 +12,19 @@ int main()
 
     for (int i = 0; i < n; i++)
     {
-        int value = arr[i];
-        if (value >= 10)
+       
+        // if (arr[i] >= 10)
+        // {
+        //     /* code */
+        //     continue;
+        // }else {
+        //     printf("A[%d] = %d\n",i, arr[i]);
+        // }
+        if (arr[i] <= 10)
         {
-            /* code */
-            continue;
-        }else {
-            printf("A[%d] = %d\n",i, value);
+            printf("A[%d] = %d\n",i, arr[i]);
         }
+        
         
     }
    
