@@ -22,20 +22,20 @@
 // }
 
 // ! string copy shortcut with strcpy
-// #include <stdio.h>
-// #include <string.h>
-// int main()
-// {
+#include <stdio.h>
+#include <string.h>
+int main()
+{
 
-//     char str1[101],str2[101], str3[101];
-//     scanf("%s %s",&str1 , &str2);
+    char str1[101],str2[101], str3[101];
+    scanf("%s %s",&str1 , &str2);
 
-//     strcpy(str3,str2);
+    strcpy(str2,str1);
 
-//     printf("%s %s %s",str1 ,str2 ,  str3);
+    printf("%s %s %s",str1 ,str2 ,str3);
 
-//     return 0;
-// }
+    return 0;
+}
 
 // ! string concat
 // #include <stdio.h>
@@ -63,16 +63,43 @@
 //     return 0;
 // }
 
-#include <stdio.h>
-#include <string.h>
-int main()
-{
+// #include <stdio.h>
+// #include <string.h>
+// int main()
+// {
 
-    char str1[101], str2[101], str3[201];
-    scanf("%s %s", &str1, &str2);
-    strcat(str1,str2);
+//     char str1[101], str2[101], str3[201];
+//     scanf("%s %s", &str1, &str2);
+//     strcat(str1,str2);
 
-    printf("%s %s %s", str1, str2, str3);
+//     printf("%s %s %s", str1, str2, str3);
 
-    return 0;
-}
+//     return 0;
+// }
+
+// ! string compare 
+// #include <stdio.h>
+// #include <string.h>
+// int main()
+// {
+
+//     char str1[101], str2[101] ;
+//     scanf("%s %s", &str1, &str2);
+//     // strcat(str1,str2);
+//    int x =  strcmp(str1,str2);
+//    if (x == 0)
+//    {
+//     /* code */
+//     printf("Equal");
+//    } else if (x < 0)
+//    {
+//     /* code */
+//     printf("Str1 Small");
+//    } else {
+//     printf("Str2 Small");
+//    }
+   
+   
+
+//     return 0;
+// }
